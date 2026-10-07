@@ -62,4 +62,4 @@ Stated plainly rather than hidden:
 ## Studio
 
 [Quattro Commas](https://quattro-commas.github.io) — an independent AI engineering studio.
-`,` ideas · `,` code · `,` culture · `,` freedom
+`,` Ideas · `,` Code · `,` Culture · `,` Freedom
