@@ -52,11 +52,14 @@ hurt tool selection, and re-runs golden `prompt → expected tool` tests on a lo
 Stated plainly rather than hidden:
 
 - All three projects currently sit at **0 stars and 0 forks**.
-- Two repos in the wider [studio portfolio](https://github.com/Quattro-Commas) have **failing checks
-  right now** — `terminal221b` on `npm ci` and `repotruth` on CodeQL.
+- Checked **2026-10-07**: **four of the five** public projects in the wider
+  [studio portfolio](https://github.com/Quattro-Commas) have **failing checks on `main` right now** —
+  `harness`, `terminal221b`, `mcp-regression-lab` and `repotruth`. `elohim` is green on its latest run.
+  "Failing" means the most recent run of a workflow the repo runs itself, excluding Dependabot update
+  jobs and stale-issue housekeeping.
 - Nothing here is in production. There are no customers and no deployments.
 
 ## Studio
 
 [Quattro Commas](https://quattro-commas.github.io) — an independent AI engineering studio.
-`,` people · `,` projects · `,` possibilities · `,` a kinder internet
+`,` ideas · `,` code · `,` culture · `,` freedom
