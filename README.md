@@ -52,6 +52,12 @@ hurt tool selection, and re-runs golden `prompt → expected tool` tests on a lo
 Stated plainly rather than hidden:
 
 - All three projects currently sit at **0 stars and 0 forks**.
+- Five of five public repositories in the wider
+  [studio portfolio](https://github.com/Quattro-Commas) are accounted for: `elohim`, `harness`,
+  `terminal221b`, `mcp-regression-lab` and `repotruth`. This index covers the first three.
+- The studio's four pillars are **Agent systems**, **Evaluation gates**, **Local inference** and
+  **Applied ML**. This repo indexes the gate implementations; the other three pillars are described in
+  the [org profile](https://github.com/Quattro-Commas).
 - Re-verified **2026-10-08**: **no project in the wider
   [studio portfolio](https://github.com/Quattro-Commas) is failing a test.** `elohim` is green on its
   latest run, five consecutive successes.
