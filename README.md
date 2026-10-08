@@ -52,11 +52,24 @@ hurt tool selection, and re-runs golden `prompt → expected tool` tests on a lo
 Stated plainly rather than hidden:
 
 - All three projects currently sit at **0 stars and 0 forks**.
-- Checked **2026-10-07**: **four of the five** public projects in the wider
-  [studio portfolio](https://github.com/Quattro-Commas) have **failing checks on `main` right now** —
-  `harness`, `terminal221b`, `mcp-regression-lab` and `repotruth`. `elohim` is green on its latest run.
-  "Failing" means the most recent run of a workflow the repo runs itself, excluding Dependabot update
-  jobs and stale-issue housekeeping.
+- Re-verified **2026-10-08**: **no project in the wider
+  [studio portfolio](https://github.com/Quattro-Commas) is failing a test.** `elohim` is green on its
+  latest run, five consecutive successes.
+
+  That is **not** the same as all green, and the difference is the point of this repo. One real defect
+  exists: `harness` last *executed* CI at `d11de009` on 2026-10-02 and failed on `uv sync --frozen`.
+  Its probable fix, six commits later, has never been validated, so `harness` is *probably green and
+  unverified*. `terminal221b` and `repotruth` have no executed run on `main` since GitHub began refusing
+  to start their jobs over billing, so they are `UNKNOWN`.
+
+  An earlier version of this file said "four of the five have failing checks right now". That was false:
+  those runs executed **zero steps** and were never assigned a runner. A job that ran no steps never ran
+  a line of the code, so its conclusion is not evidence about the code. The honest number was about a
+  GitHub invoice, not about five codebases.
+
+  Re-derive it with `qc-work/check-state.sh`, which prints `steps=` and `runner=` per failing job so the
+  refusals are visible rather than silently counted. Note `repotruth` lives at
+  `Bakery-street-project/galacticfederation`; `BoozeLee/repotruth` does not resolve.
 - Nothing here is in production. There are no customers and no deployments.
 
 ## Studio
