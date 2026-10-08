@@ -62,10 +62,10 @@ Stated plainly rather than hidden:
   unverified*. `terminal221b` and `repotruth` have no executed run on `main` since GitHub began refusing
   to start their jobs over billing, so they are `UNKNOWN`.
 
-  An earlier version of this file said "four of the five have failing checks right now". That was false:
+  An earlier version of this file published a count of red checks across the portfolio. That was false:
   those runs executed **zero steps** and were never assigned a runner. A job that ran no steps never ran
-  a line of the code, so its conclusion is not evidence about the code. The honest number was about a
-  GitHub invoice, not about five codebases.
+  a line of the code, so its conclusion is not evidence about the code. The old number described a
+  GitHub invoice, not five codebases.
 
   Re-derive it with `qc-work/check-state.sh`, which prints `steps=` and `runner=` per failing job so the
   refusals are visible rather than silently counted. Note `repotruth` lives at
