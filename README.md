@@ -18,7 +18,7 @@ maintained there.
 | Project | What it gates | Language | License |
 |---|---|---|---|
 | [elohim](https://github.com/Quattro-Commas/elohim) | Numerical claims — publishes a number only when it can re-derive it | Python | MIT |
-| [harness](https://github.com/BoozeLee/harness) | Agent edits — blocks protected-path writes and secret reads before an edit lands | Python | AGPL-3.0 |
+| [harness](https://github.com/Quattro-Commas/harness) | Agent edits — blocks protected-path writes and secret reads before an edit lands | Python | AGPL-3.0 |
 | [mcp-regression-lab](https://github.com/BoozeLee/mcp-regression-lab) | MCP tool contracts — a renamed or narrowed tool fails CI instead of production | TypeScript | ISC |
 
 ### elohim
